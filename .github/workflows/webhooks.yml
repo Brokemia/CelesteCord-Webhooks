@@ -35,6 +35,7 @@ jobs:
           SPEEDRUN_WELCOME_WEBHOOK: ${{ secrets.SPEEDRUN_WELCOME_WEBHOOK }}
           SPEEDRUN_HELP_WEBHOOK: ${{ secrets.SPEEDRUN_HELP_WEBHOOK }}
           CHALLENGE_WELCOME_WEBHOOK: ${{ secrets.CHALLENGE_WELCOME_WEBHOOK }}
+          CONTACT_CELESTENET_STAFF_WEBHOOK: ${{ secrets.CONTACT_CELESTENET_STAFF_WEBHOOK }}
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
